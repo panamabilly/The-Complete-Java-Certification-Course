@@ -15,7 +15,12 @@ public class ForLoopPractice {
 		
 		for (int i = stringarray.length -1; i >= 0; i--) {
 			System.out.print(stringarray[i]);
-		} 
+		}
+// Code Challenge: Print numbers from 0 to 100 inclusive by twos		
+		for (int j = 0; j <= 100; j = j + 2) {
+			System.out.println(j);
+		}
+		 
 		
 	}
 
